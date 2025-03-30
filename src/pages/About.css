@@ -1,0 +1,30 @@
+.about-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #222;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+  }
+  
+  .about-container h1,
+  .about-container h2 {
+    color: #00aaff;
+  }
+  
+  .about-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .about-container ul li {
+    padding: 8px 0;
+    font-size: 18px;
+  }
+  
+  .about-container p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
