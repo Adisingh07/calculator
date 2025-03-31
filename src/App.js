@@ -9,6 +9,7 @@ import "./App.css";
 import About from "./pages/About"; 
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import ContactUs from "./pages/ContactUs"; 
+import TermsOfService from "./pages/TermsOfService";
 import { Pi } from "@pinetwork-js/sdk"; // ✅ Correct import
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
             <Route path="/about" element={<About />} /> 
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/contact" element={<ContactUs />} />
+            <Route path="/terms-of-service" element={<TermsOfService />} />
           </Routes>
         </main>
       </div>
