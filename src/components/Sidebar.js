@@ -20,6 +20,7 @@ const Sidebar = () => {
           <li><Link to="/about" onClick={() => setIsOpen(false)}>ℹ️ About</Link></li>
           <li><Link to="/contact" onClick={() => setIsOpen(false)}>📞 Contact</Link></li>
           <li><Link to="/privacy-policy" onClick={() => setIsOpen(false)}>🔒 Privacy Policy</Link></li>
+           <li><Link to="/terms-of-service" onClick={closeSidebar}>📜 Terms of Service</Link></li>
         </ul>
       </div>
     </div>
